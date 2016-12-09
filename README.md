@@ -13,6 +13,7 @@ This is LAB 07
 * Ensure `SFML_SDK` environment variable exits
 * Ensure SFML Version SFML 2.3.2 Visual C++ 14 (2015) - 32-bit is installed 
 http://www.sfml-dev.org/files/SFML-2.3.2-windows-vc14-32-bit.zip "SFML-2.3.2-windows-vc14-32-bit.zip"
+* To check environment variable is set correctly open a command prompt and type `echo %SFML_SDK%` the path to SFML sdk should be show.
 * Select a project default target `x86` when running executable
 * If the project builds but does not `xcopy` the required dll's try moving your project to a directory you have full access to, see http://tinyurl.com/SFMLStarter for a guide on post build events.
 
